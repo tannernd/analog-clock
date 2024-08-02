@@ -1,0 +1,83 @@
+input {
+  margin: 0 15px;
+}
+
+#root {
+  text-align: center;
+  width: 100%;
+}
+
+.formspace {
+  margin: 20px 0; 
+}
+
+.clock {
+  background: white;
+  width: 300px;
+  height: 300px;
+  margin: 20px auto;
+  border-radius: 50%;
+  border: 5px solid green;
+  position: relative;
+}
+
+.middle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: blue;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+}
+
+.hour {
+  position: absolute;
+  width: 4px;
+  height: 65px;
+  background: red;
+  top: 79px;
+  transform-origin: 50% 72px;
+  left: 50%;
+  margin-left: -2px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  z-index: 3;
+}
+
+.minute {
+  position: absolute;
+  width: 4px;
+  height: 100px;
+  background: black;
+  top: 46px;
+  left: 50%;
+  margin-left: -2px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  transform-origin: 50% 105px;
+  z-index: 2;
+}
+
+.minutelines {
+  position: absolute;
+  width: 2px;
+  height: 15px;
+  background: #666;
+  left: 50%;
+  margin-left: -1px;
+  transform-origin: 50% 150px;
+}
+
+.minutelines:nth-of-type(5n) {
+  position: absolute;
+  width: 4px;
+  height: 25px;
+  background: #666;
+  left: 50%;
+  margin-left: -1px;
+  transform-origin: 50% 150px;
+}
