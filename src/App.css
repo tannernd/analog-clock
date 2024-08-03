@@ -32,12 +32,13 @@ input {
   bottom: 0;
   margin: auto;
   position: absolute;
+  z-index: 4;
 }
 
 .hour {
   position: absolute;
   width: 4px;
-  height: 65px;
+  height: 70px;
   background: red;
   top: 79px;
   transform-origin: 50% 72px;

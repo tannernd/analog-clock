@@ -16,9 +16,7 @@ function Home(props) {
     hourEl.style.transform = "rotate(" + newTime.hourDegree + "deg)";
     minuteEl.style.transform = "rotate(" + newTime.minuteDegree + "deg)";
   }, [time]);
-  useEffect(() => {
-    //minuteLines();
-  }, []);
+
   return (
     <div className="container">
       <ClockInput
