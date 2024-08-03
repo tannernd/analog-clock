@@ -5,9 +5,8 @@ function Clock(props) {
   for (var i = 0; i < 60; i++) {
     tmp.push(i);
   }
-  var indents = tmp.map(function (i) {
+  var minutelines = tmp.map(function (i) {
     let rotateStyle = 6 * i;
-    console.log(rotateStyle);
     return (
       <div
         key={i}
@@ -25,7 +24,7 @@ function Clock(props) {
         <div className="hour"></div>
         <div className="minute"></div>
       </div>
-      {indents}
+      {minutelines}
     </div>
   );
 }

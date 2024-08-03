@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import moment from "moment";
-import { getDegrees, minuteLines } from "../utils/helper.js";
+import { getDegrees } from "../utils/helper.js";
+import Header from "../components/Header.jsx";
 import Clock from "../components/Clock.jsx";
 import ClockInput from "../components/ClockInput.jsx";
 
@@ -19,6 +20,7 @@ function Home(props) {
 
   return (
     <div className="container">
+      <Header />
       <ClockInput
         currHour={currHour}
         currMinute={currMinute}

@@ -9,12 +9,3 @@ export const getDegrees = (hour, minute) => {
     hourDegree: hourDegree,
   };
 };
-
-export const minuteLines = () => {
-  let clockEl = document.getElementsByClassName("clock")[0];
-  let minutelines = document.getElementsByClassName("minutelines");
-  for (let i = 1; i < 60; i++) {
-    clockEl.innerHTML += "<div class='minutelines'></div>";
-    minutelines[i].style.transform = "rotate(" + 6 * i + "deg)";
-  }
-};

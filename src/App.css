@@ -52,7 +52,7 @@ input {
 .minute {
   position: absolute;
   width: 4px;
-  height: 100px;
+  height: 105px;
   background: black;
   top: 46px;
   left: 50%;
