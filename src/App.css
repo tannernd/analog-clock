@@ -72,7 +72,7 @@ input {
   transform-origin: 50% 150px;
 }
 
-.minutelines:nth-of-type(5n) {
+.minutelines:nth-child(5n+3) {
   position: absolute;
   width: 4px;
   height: 25px;

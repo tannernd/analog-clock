@@ -13,12 +13,11 @@ function Home(props) {
     let hourEl = document.querySelector(".hour");
     let minuteEl = document.querySelector(".minute");
     let newTime = getDegrees(time.hour, time.minute);
-    console.log(newTime.hourDegree);
     hourEl.style.transform = "rotate(" + newTime.hourDegree + "deg)";
     minuteEl.style.transform = "rotate(" + newTime.minuteDegree + "deg)";
   }, [time]);
   useEffect(() => {
-    minuteLines();
+    //minuteLines();
   }, []);
   return (
     <div className="container">
