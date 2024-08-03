@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://main.d2kywxkqjmx87j.amplifyapp.com/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,28 +10,28 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "formik": "^2.4.6",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
     "aws-amplify": "^6.4.3",
-    "moment": "^2.30.1"
+    "formik": "^2.4.6",
+    "moment": "^2.30.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@aws-amplify/backend": "^1.0.4",
+    "@aws-amplify/backend-cli": "^1.2.2",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
-    "eslint": "^8.57.0",
-    "eslint-plugin-react": "^7.34.3",
-    "eslint-plugin-react-hooks": "^4.6.2",
-    "eslint-plugin-react-refresh": "^0.4.7",
-    "vite": "^5.3.4",
-    "@aws-amplify/backend": "^1.0.4",
-    "@aws-amplify/backend-cli": "^1.2.2",
     "aws-cdk": "^2.151.0",
     "aws-cdk-lib": "^2.151.0",
     "constructs": "^10.3.0",
     "esbuild": "^0.23.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.3",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
     "tsx": "^4.16.5",
-    "typescript": "^5.5.4"
+    "typescript": "^5.5.4",
+    "vite": "^5.3.4"
   }
 }
